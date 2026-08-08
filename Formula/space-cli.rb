@@ -1,24 +1,24 @@
 class SpaceCli < Formula
   desc "CLI for querying your local Space flashcard database"
   homepage "https://getspace.dev/cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/space-org/space-cli/releases/download/v0.1.0/space-cli-macos-arm64.tar.gz"
-      sha256 "e771b5368a4ea71355411cf21c36923d4cebd55940d2952511050781ac553a36"
+      url "https://github.com/space-org/space-cli/releases/download/v0.2.0/space-cli-macos-arm64.tar.gz"
+      sha256 "2266ec0e191ad4ed23b72c9ade48ab2ae6eebbb236cdf38f398351d667936115"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/space-org/space-cli/releases/download/v0.1.0/space-cli-linux-arm64.tar.gz"
-      sha256 "bf13c17d8a6f4f05a066b62061fd898852dcdb3074632cbbf984a366a188c390"
+      url "https://github.com/space-org/space-cli/releases/download/v0.2.0/space-cli-linux-arm64.tar.gz"
+      sha256 "a3b30f75e7612c2d43f2f9c9b9cbba02c7838c21270578d5aee80a6641cea336"
     end
     on_intel do
-      url "https://github.com/space-org/space-cli/releases/download/v0.1.0/space-cli-linux-x86_64.tar.gz"
-      sha256 "7c1a810db892e8535f544521332858e8fa88847fd4eb86ae42bfcb7dd5d1bf37"
+      url "https://github.com/space-org/space-cli/releases/download/v0.2.0/space-cli-linux-x86_64.tar.gz"
+      sha256 "fe7a446a575d17dcb632dd6d4e925a9aa61c37d81081fc30a3cf7b54bc7ea379"
     end
   end
 
